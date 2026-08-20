@@ -24,10 +24,6 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-button {
-    border: 0;
-}
-
 .card {
     background: var(--color-bg-card);
     border-radius: 20px;
@@ -58,12 +54,14 @@ button {
 }
 
 .card__button {
+    display: inline-block;
     margin-top: 12px;
     background: var(--color-button);
     color: var(--color-text-white);
     font-size: 14px;
     border-radius: 10px;
     padding: 8px 12px;
+    text-decoration: none;
 }
 
 .card__button:hover {
